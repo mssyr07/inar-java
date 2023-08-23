@@ -1,4 +1,4 @@
-package week_03;
+package week_03.assignment;
 import java.util.Scanner;
 
 public class Question_03_04 {
