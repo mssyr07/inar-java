@@ -47,7 +47,7 @@ public class Question_05_02 {
         int testTime = (int) (finishingTime / 1000) - (int) (startTime / 1000);
 
 
-        System.out.println("Test time is " + testTime + "seconds" + '\n');
+        System.out.println("Test time is " + testTime + " seconds " + '\n');
 
         System.out.println("Correct count is " + numberOfCorrect);
         System.out.println(correctAnswers);
