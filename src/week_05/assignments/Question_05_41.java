@@ -10,7 +10,7 @@ public class Question_05_41 {
         System.out.print("Enter numbers: ");
         int max = input.nextInt();
         int count = 1;
-        int number;
+        int number = 1;
 
 
         while (number > 0) {
