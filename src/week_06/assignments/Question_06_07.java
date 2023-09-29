@@ -18,7 +18,7 @@ public class Question_06_07 {
         System.out.println(" Years      Future Value ");
 
         for (int year = 1; year <= numberOfYears; year++) {
-            System.out.println(" " +  year + "           " + (int)(futureInvestmentValue(amount, monthlyInterestRate, year) * 100) / 100.0);
+            System.out.println(" " + year + "           " + (int) (futureInvestmentValue(amount, monthlyInterestRate, year) * 100) / 100.0);
 
         }
 
