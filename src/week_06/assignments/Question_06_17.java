@@ -1,5 +1,5 @@
 package week_06.assignments;
-import java.util.Scanner
+import java.util.Scanner;
 public class Question_06_17 {
     public static void main(String[] args) {
 
@@ -9,7 +9,7 @@ public class Question_06_17 {
         System.out.print("Enter n: ");
         int n = input.nextInt();
 
-        /
+
         printMatrix(n);
     }
 
