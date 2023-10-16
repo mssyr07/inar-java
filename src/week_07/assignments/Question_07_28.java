@@ -8,13 +8,14 @@ public class Question_07_28 {
 
         int[] numbers = new int[10];
         System.out.print("Enter ten numbers : ");
-        for (int i = 0; i < numbers.length; i++){
-            numbers[i] = input.nextInt();;
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = input.nextInt();
+            ;
         }
 
-        for (int i = 0; i < numbers.length; i++){
-            for (int j = 0; j < numbers.length; j++){
-                if (i != j){
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers.length; j++) {
+                if (i != j) {
                     System.out.println(numbers[i] + " " + numbers[j]);
                 }
             }
