@@ -28,7 +28,7 @@ public class Question_08_04 {
         //Sorting the Array by Selection Sort //
 
         for (int i = 0; i < sumHours.length - 1; i++) {
-            for (int j = 0; j < sumHours.length; j++) {
+            for (int j = i + 1 ; j < sumHours.length; j++) {
                 if (sumHours[i][0] < sumHours[j][0]) {
                     int[] temp = sumHours[i];
                     sumHours[i] = sumHours[j];
@@ -38,7 +38,7 @@ public class Question_08_04 {
             }
         }
 
-        for (int i = sumHours.length - 1; i >= 0; i--) {
+        for (int i = 0; i < sumHours.length; i++) {
             System.out.print("Employee " + sumHours[i][1] + "'s total work hour is : ");
             System.out.print(sumHours[i][0] + "\n");
         }
