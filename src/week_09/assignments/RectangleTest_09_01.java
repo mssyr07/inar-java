@@ -18,7 +18,7 @@ public class RectangleTest_09_01 {
 
 
         Rectangle_09_01 rectangle2 = new Rectangle_09_01(3.5 , 35.9);
-        
+
         System.out.println("========== Rectangle 2 ==========");
         System.out.println("_________________________________");
         System.out.println(" Width     :" + rectangle2.width);
