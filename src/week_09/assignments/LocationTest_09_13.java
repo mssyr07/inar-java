@@ -8,9 +8,9 @@ public class LocationTest_09_13 {
 
         System.out.print("Enter number of rows and columns :");
         int numberOfRows = input.nextInt();
-        ;
+
         int numberOfColumns = input.nextInt();
-        ;
+        
 
         double[][] numbers = new double[numberOfRows][numberOfColumns];
 
