@@ -1,6 +1,5 @@
 package week_09.assignments;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class LocationTest_09_13 {
