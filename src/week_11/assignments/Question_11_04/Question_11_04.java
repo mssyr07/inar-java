@@ -33,6 +33,8 @@ public class Question_11_04 {
             if (list.get(i) > max){
                 max = list.get(i);
             }
+
+
         }
         return max;
     }
