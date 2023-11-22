@@ -1,4 +1,4 @@
-package week_11.assignments;
+package week_11.assignments.Question_11_13;
 
 import java.util.Scanner;
 import java.util.ArrayList;
