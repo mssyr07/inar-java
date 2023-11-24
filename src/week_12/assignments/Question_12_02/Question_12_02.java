@@ -1,4 +1,4 @@
-package week_12_01.assignments.Question_12_02;
+package week_12.assignments.Question_12_02;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

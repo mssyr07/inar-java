@@ -1,4 +1,4 @@
-package week_12_01.assignments.Question_12_01;
+package week_12.assignments.Question_12_01;
 
 public class NumberFormatException_12_01 {
     public static void main(String[] args) {
