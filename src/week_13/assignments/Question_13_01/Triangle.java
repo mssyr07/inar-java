@@ -1,6 +1,6 @@
-package week_13.assignments;
+package week_13.assignments.Question_13_01;
 
-import java.util.Scanner;
+import week_13.assignments.Question_13_01.GeometricObject;
 
 public class Triangle extends GeometricObject {
 
