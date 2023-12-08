@@ -1,9 +1,8 @@
-package week_11.assignments.Question_11_10;
+package week_13.assignments.Question_13_08;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
-public class MyStack {
+public class MyStack implements Cloneable {
 
     private ArrayList<Object> list = new ArrayList<>();
 
@@ -11,8 +10,8 @@ public class MyStack {
 
         return list.isEmpty();
     }
-
-    public int getSize() {  
+                                                                        /////////
+    public int getSize() {
 
         return list.size();
     }
@@ -31,6 +30,12 @@ public class MyStack {
     public void push(Object o) {
 
         list.add(o);
+    }
+
+    public Object clone() throws CloneNotSupportedException {
+        MyStack clone = (MyStack) (super.clone());
+        clone.list = (ArrayList<Object>) (this.list.clone());
+        return clone;
     }
 
     @Override
