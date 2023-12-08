@@ -1,8 +1,8 @@
-package week_13.assignments.Question_13_01;
+package week_13.assignments.Question_13_05;
 
 import java.util.Date;
 
-public abstract class GeometricObject implements Comparable<week_13.assignments.Question_13_05.GeometricObject> {
+public abstract class GeometricObject implements Comparable<GeometricObject> {
     private String color;
 
     private boolean isFilled;
@@ -11,11 +11,13 @@ public abstract class GeometricObject implements Comparable<week_13.assignments.
 
     public GeometricObject() {
         this("default", false);
+        dateCreated = new Date();
     }
 
     public GeometricObject(String color, boolean isFilled) {
         this.color = color;
         this.isFilled = isFilled;
+        this.dateCreated = new Date();
 
     }
 
@@ -54,7 +56,7 @@ public abstract class GeometricObject implements Comparable<week_13.assignments.
     public abstract double getArea();
 
     @Override
-    public int compareTo(week_13.assignments.Question_13_05.GeometricObject o) {
+    public int compareTo(GeometricObject o) {
         if (this.getArea() > o.getArea()) {
             return 1;
         } else if (this.getArea() < o.getArea()) {
@@ -62,7 +64,7 @@ public abstract class GeometricObject implements Comparable<week_13.assignments.
         } else return 0;
     }
 
-    public static week_13.assignments.Question_13_05.GeometricObject max(week_13.assignments.Question_13_05.GeometricObject o1, week_13.assignments.Question_13_05.GeometricObject o2) {
+    public static GeometricObject max(GeometricObject o1, GeometricObject o2) {
         return o1.compareTo(o2) == 1 ? o1 : o2;
     }
 
@@ -73,5 +75,5 @@ public abstract class GeometricObject implements Comparable<week_13.assignments.
                 ", isFilled=" + isFilled +
                 ", dateCreated=" + dateCreated +
                 '}';
-}
+    }
 }
